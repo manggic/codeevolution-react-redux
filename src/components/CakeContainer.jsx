@@ -5,9 +5,9 @@ import { connect } from "react-redux";
 const CakeContainer = ({ noOfCakes, buyCake }) => {
   return (
     <div>
-       <p>(cake using mapStateToProps & mapDispatchToProps )</p>
+      <p>(cake using mapStateToProps & mapDispatchToProps )</p>
       <h2>Number of cakes - {noOfCakes}</h2>
-      <button onClick={() => buyCake()} >Buy</button>
+      <button onClick={() => buyCake()}>Buy</button>
     </div>
   );
 };
